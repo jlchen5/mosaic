@@ -1,0 +1,8 @@
+      1 #!/usr/bin/python
+      2 import math
+      3 import sys
+      4 if len(sys.argv) >=2 :
+      5         try:
+      6                 print("Mosaic ratio is {:.2f}%".format(100*math.fabs(2-2*math.pow(2,float(sys.argv[1])))))
+      7         except:
+      8                 print("Please input float value but not value likes {}".format(sys.argv[1]))
